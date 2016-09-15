@@ -35,7 +35,7 @@ class BinsList extends Component {
 	render() {
 		
 		return (
-			<div>
+			<div className="col-md-8 col-md-offset-2">
 				<h4>Bins</h4>
 				<ul className="list-group">
 					{this.renderBinList()}
