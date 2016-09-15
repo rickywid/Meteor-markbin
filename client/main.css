@@ -13,3 +13,20 @@
 .bins-share .input-group {
 	width: 30%;
 }
+
+.guide {
+	margin-top: 50px;
+}
+
+.navbar-right {
+	padding-right: 100px;
+}
+
+.login-link-text {
+	color: white;
+	font-weight: bold;
+}
+
+#login-buttons a{
+	text-decoration: none;
+}

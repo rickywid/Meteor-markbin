@@ -14,14 +14,16 @@ class Header extends Component {
 
 	render(){
 		return (
-			<nav className="nav navbar-default">
+			<nav className="nav navbar-inverse">
 				<div className="nav navbar-header">
 					<Link to="/" className="nav navbar-brand">ReactBin</Link>
 				</div>
 				<ul className="nav navbar-nav">
+					<li><Link to="/project" >Project</Link></li>
+				</ul>
+				<ul className="nav navbar-nav navbar-right">
+					<li><a href="#" onClick={this.onBindClick.bind(this)} >Create Bin</a></li>	
 					<li><Accounts /></li>
-					<li><a href="#" onClick={this.onBindClick.bind(this)} >Create Bin</a></li>
-					<li><Link to="/guide" >Guide</Link></li>
 				</ul>
 			</nav>
 		)
