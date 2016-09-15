@@ -31,3 +31,8 @@
 #login-buttons a{
 	text-decoration: none;
 }
+
+#login-dropdown-list {
+	top: 29px;
+	left: -162px;
+}
