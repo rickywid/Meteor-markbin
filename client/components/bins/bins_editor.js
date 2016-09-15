@@ -10,12 +10,16 @@ class BinsEditor extends Component {
 
 	render(){
 		return (
-			<div className="col-xs-8">
+			<div className="col-xs-6">
 				<h5>Input</h5>
 				<CodeMirror 
 					value={this.props.bin.content}
 					onChange={this.onEditorChange.bind(this)}
 					options={{mode: 'markdown', lineNumbers: true}} />
+				<hr/>
+				<div className="alert alert-warning" role="alert">
+					Please keep it clean and friendly. This application is for demo purposes only. Thank you!
+				</div>				
 			</div>
 		)
 	}

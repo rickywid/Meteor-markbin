@@ -16,7 +16,7 @@ class Header extends Component {
 		return (
 			<nav className="nav navbar-inverse">
 				<div className="nav navbar-header">
-					<Link to="/" className="nav navbar-brand">ReactBin</Link>
+					<Link to="/" className="nav navbar-brand">React<span id="bin">Bin</span></Link>
 				</div>
 				<ul className="nav navbar-nav">
 					<li><Link to="/project" >Project</Link></li>

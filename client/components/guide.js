@@ -13,7 +13,7 @@ class Guide extends Component {
 			<hr/>
 
 			<h3>Features</h3>
-			<p>A user can sign up and register to create their own bin. The user has the option to share there bin with others allowing a group of users to collaborate on a single bin.</p>
+			<p>A user can sign up and register to create their own bin. The user has the option to share their bin with others allowing a group of users to collaborate on a single bin.</p>
 			<hr/>
 
 			<h3>Additional Features</h3>

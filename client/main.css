@@ -1,3 +1,13 @@
+.navbar-inverse{
+	margin-bottom: 37px;
+}
+
+#bin {
+	color: white;
+	font-weight: bold;
+	border-bottom: 3px solid white;
+}
+
 #login-buttons {
 	font-size: 14px;
 	margin: 18px;
@@ -12,10 +22,6 @@
 
 .bins-share .input-group {
 	width: 30%;
-}
-
-.guide {
-	margin-top: 50px;
 }
 
 .navbar-right {
