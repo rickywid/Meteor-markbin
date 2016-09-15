@@ -36,6 +36,7 @@ class BinsList extends Component {
 		
 		return (
 			<div>
+				<h4>Bins</h4>
 				<ul className="list-group">
 					{this.renderBinList()}
 				</ul>
