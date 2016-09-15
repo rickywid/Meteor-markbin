@@ -16,7 +16,7 @@ class BinsList extends Component {
 
 				const url = `/bins/${bin._id}`;
 
-			return <li key={bin._id}>
+			return <li className="list-group-item" key={bin._id}>
 				<Link to={url}> {bin._id}</Link>
 				<span className="pull-right">
 					<button 
@@ -38,7 +38,7 @@ class BinsList extends Component {
 			<div className="col-md-8 col-md-offset-2">
 				<h4>Bin ID</h4>
 				<hr/>
-				<ul>
+				<ul className="list-group">
 					{this.renderBinList()}
 				</ul>
 			</div>

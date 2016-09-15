@@ -42,3 +42,12 @@
 	top: 29px;
 	left: -162px;
 }
+
+.list-group-item {
+	margin-bottom: 9px;
+	border-left: 5px solid green;
+}
+
+.btn {
+	line-height: 8px;
+}
